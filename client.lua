@@ -4,28 +4,28 @@ Citizen.CreateThread(function()
     -- ====================================================================
 
     -- Michael: -802.311, 175.056, 72.8446
-    Michael.LoadDefault()
+   -- Michael.LoadDefault()
 
     -- Simeon: -47.16170 -1115.3327 26.5
     Simeon.LoadDefault()
 
     -- Franklin's aunt: -9.96562, -1438.54, 31.1015
-    FranklinAunt.LoadDefault()
+   -- FranklinAunt.LoadDefault()
 
     -- Franklin
-    Franklin.LoadDefault()
+   -- Franklin.LoadDefault()
 
     -- Floyd: -1150.703, -1520.713, 10.633
     Floyd.LoadDefault()
 
     -- Trevor: 1985.48132, 3828.76757, 32.5
-    TrevorsTrailer.LoadDefault()
+   -- TrevorsTrailer.LoadDefault()
 
     -- Bahama Mamas: -1388.0013, -618.41967, 30.819599
     BahamaMamas.Enable(true)
 
     -- Pillbox hospital: 307.1680, -590.807, 43.280
-    PillboxHospital.Enable(true)
+    PillboxHospital.Enable(false)
 
     -- Zancudo Gates (GTAO like): -1600.30100000, 2806.73100000, 18.79683000
     ZancudoGates.LoadDefault()
@@ -33,8 +33,8 @@ Citizen.CreateThread(function()
     -- Other
     Ammunations.LoadDefault()
     LesterFactory.LoadDefault()
-    StripClub.LoadDefault()
-
+    -- StripClub.LoadDefault()
+    --StripClub.Enable(false)
     Graffitis.Enable(true)
 
     -- UFO
@@ -164,7 +164,7 @@ Citizen.CreateThread(function()
         MpSecurityOffice1.LoadDefault() -- -1021.86084, -427.74564, 68.95764
         MpSecurityOffice2.LoadDefault() -- 383.4156, -59.878227, 108.4595
         MpSecurityOffice3.LoadDefault() -- -1004.23035, -761.2084, 66.99069
-        MpSecurityOffice4.LoadDefault() -- -587.87213, -716.84937, 118.10156
+       -- MpSecurityOffice4.LoadDefault() -- -587.87213, -716.84937, 118.10156
     end
 
     -- ====================================================================
